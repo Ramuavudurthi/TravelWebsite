@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 .nav{
     background-color: orange;
     padding-top: 10px;
@@ -23,11 +24,13 @@
     display: flex;
     gap: 20px;
 }
-.nav div ul li{
+.nav div ul li a{
     font-weight: bold;
     transition: all 0.5s;
+    text-decoration: none;
+    color: black;
 }
-.nav div ul li:hover{
+.nav div ul li a:hover{
     color: white;
     cursor: pointer;
 }
@@ -113,4 +116,21 @@ main div a:hover{
     padding: 10px;
     font-size: 16px;
     box-sizing: border-box;
+}
+.submit{
+    background-color: skyblue; padding:10px;border:none;border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+/* about page styling */
+.about_main{
+    margin: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
 }
