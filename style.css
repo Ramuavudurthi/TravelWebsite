@@ -127,10 +127,96 @@ main div a:hover{
 
 
 /* about page styling */
-.about_main{
-    margin: 30px 100px;
+.about_main {
+    margin: 30px 5%;
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    flex-wrap: wrap;
+}
+
+.about_main img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about_main div {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.about_main div:last-child {
     
+    padding: 20px;
+}
+
+.founders{
+    margin:0 100px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    overflow: auto;
+}
+.founders div{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5%;
+    margin: 50px ;
+    text-align: center;
+}
+.founders div img{
+    border-radius: 60%;
+    width: 250px;
+    height: auto;
+}
+.para{
+    margin:30px 100px;
+}
+
+
+/* Gallery */
+
+.gallery {
+    margin: 30px 100px;
+    text-align: center;
+}
+
+.gallery h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #333;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all 0.5s;
+    width: 23%;
+}
+
+.gallery-item:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.custom-img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
