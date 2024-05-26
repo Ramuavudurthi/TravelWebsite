@@ -37,16 +37,19 @@
 .header{
     margin: 0 100px;
     height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
-    
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 5px;
 }
-
+.header img{
+    width: 500px;
+}
+.header p{
+    width: 800px;
+   overflow: auto;
+}
 main{
     padding: 50px 0;
     margin:0 100px;
